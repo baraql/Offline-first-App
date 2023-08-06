@@ -1,0 +1,49 @@
+.box {
+  width: 295px;
+  height: 64px;
+  border-radius: 12px;
+  border: 1px solid #cbcbcb;
+  background: #edecec;
+}
+
+.box.selected {
+  background: #307cf6;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.circle {
+  width: 41px;
+  height: 41px;
+  fill: #d9d9d9;
+}
+
+.chatTitle {
+  width: 161px;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.chatDesc {
+  width: 229px;
+  height: 23px;
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box.selected .chatDesc {
+  opacity: 0.8;
+}
+
+.chatText {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 10%;
+  line-height: 0%;
+}
